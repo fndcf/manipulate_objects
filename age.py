@@ -20,6 +20,6 @@ print("In 30 years, you'll be",age + 30, "years old.") # Imprime uma string cont
 """
 
 age= int(input("Please tell me your age: "))  # Solicita um inteiro
-print("You are currently",str(age), "years old.") # Imprime uma string contendo sua idade atualmente
+print(f"You are currently {str(age)} years old.") # Imprime uma string contendo sua idade atualmente
 for count in range(10, 40, 10):  # Itera de 10 a 30 em intervalos de 10 em 10
     print("In", str(count), "years, you'll be",str((age + (count))), "years old")  # Imprime uma string contendo sua idade em 10,20 e 30 anos
