@@ -12,4 +12,4 @@ Funcionamento do código:
 """
 
 word= str(input("Give me a word: "))  # Solicita uma string
-print(word.upper()) # Imprime a string com letra maiscula
+print(f"{word.upper()}") # Imprime a string com letra maiscula
