@@ -14,8 +14,8 @@ Funcionamento do código:
 first_number = int(input("Give me the first number: "))  # Solicita um inteiro
 second_number = int(input("Give me the second number: "))  # Solicita um inteiro
 print("Thank You!") # Imprime uma string de agradecimento
-print(first_number, "+", second_number, "=", (first_number + second_number)) # Imprime a soma dos dois inteiros solicitados
-print(first_number, "-", second_number, "=", (first_number - second_number)) # Imprime a subtração dos dois inteiros solicitados
-print(first_number, "/", second_number, "=", (first_number / second_number)) # Imprime a divisão dos dois inteiros solicitados
-print(first_number, "*", second_number, "=", (first_number * second_number)) # Imprime a multiplicação dos dois inteiros solicitados
+print(f"{first_number} + {second_number} =", (first_number + second_number)) # Imprime a soma dos dois inteiros solicitados
+print(f"{first_number} - {second_number} =", (first_number - second_number)) # Imprime a subtração dos dois inteiros solicitados
+print(f"{first_number} / {second_number} =", (first_number / second_number)) # Imprime a divisão dos dois inteiros solicitados
+print(f"{first_number} * {second_number} =",(first_number * second_number)) # Imprime a multiplicação dos dois inteiros solicitados
 
